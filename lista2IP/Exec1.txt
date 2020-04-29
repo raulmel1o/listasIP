@@ -1,0 +1,75 @@
+Lista 2 - Introdução à Programação
+
+1.
+
+if (5 < 5) System.out.println("sim");
+System.out.println(" ´e a resposta.\n");
+
+	OUTPUT: 'e a resposta.
+
+int var1 = 3;
+int var2 = 6;
+if ((var1 + 2) < var2) System.out.println("oba");
+if ((var1 + 4) < var2) System.out.println("abo");
+if ((var1 + 4) > var2) System.out.println("aob");
+System.out.println("ola\n");
+
+	OUTPUT: oba
+		aob
+		ola
+
+int a = 10;
+int b = 20;
+int c;
+if (a < b) c = a;
+else c = b;
+System.out.println(a+" "+b+" "+c);
+
+	OUTPUT: 10 20 30
+
+int a = 10;
+int b = 20;
+int c = (a < b) ? a : b;
+System.out.println(a+" "+b+" "+c);
+
+	OUTPUT: 10 20 10
+
+int a = 3;
+int b = 4;
+boolean continua = true && ((a + b) < (2 * a));
+if (continua) System.out.println("alto");
+else System.out.println("baixo");
+
+	OUTPUT: baixo
+
+class C {
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 3;
+		int c = 9;
+		int aux;
+
+		if (a>b) {
+			aux = a;
+			a = b;
+			b = aux;
+		}
+
+		if (b>c) {
+			aux = b;
+			b = c;
+			c = aux;
+		}
+
+		if (a>b) {
+			aux = a;
+			a = b;
+			b = aux;
+		}
+
+		System.out.println(c+" "+b+" "+a);
+
+	}
+}
+	
+	OUTPUT: 9 5 3
