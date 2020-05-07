@@ -1,3 +1,23 @@
+//finalizado
+
+public class Exec4 {
+    //Similar à classe TestaInteiro
+    public static void main (String[] args) {
+        Inteiro teste = new Inteiro();
+        teste.carregaValor(1_000);
+        System.out.println(teste.devolveValor());
+        System.out.println(teste.devolveValorAbsoluto());
+        teste.soma(200);
+        teste.subtrai(2_000);
+        teste.imprime();
+        System.out.println(teste.devolveValorAbsoluto());
+        teste.multiplicaPor(2);
+        System.out.println(teste.dividePor(0));
+        System.out.println(teste.dividePor(2));
+
+    }
+}
+
 class Inteiro {
     int valor = 0;
 
@@ -40,23 +60,5 @@ class Inteiro {
             System.out.println("ERRO");
         }
         return valor;
-    }
-}
-
-public class Exec4 {
-    //Similar à classe TestaInteiro
-    public static void main (String[] args) {
-        Inteiro teste = new Inteiro();
-        teste.carregaValor(1_000);
-        System.out.println(teste.devolveValor());
-        System.out.println(teste.devolveValorAbsoluto());
-        teste.soma(200);
-        teste.subtrai(2_000);
-        teste.imprime();
-        System.out.println(teste.devolveValorAbsoluto());
-        teste.multiplicaPor(2);
-        System.out.println(teste.dividePor(0));
-        System.out.println(teste.dividePor(2));
-
     }
 }

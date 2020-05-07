@@ -1,3 +1,11 @@
+//finalizado
+
+public class Exec11 {
+    public static void main (String[] args) {
+
+    }
+}
+
 class Rendimentos2 {
     double rendimentosPessoaFisica (double t) {
         return 0;
@@ -50,11 +58,5 @@ class CalculadoraDeImposto2 {
 
     double imposto () {
         return 0;
-    }
-}
-
-public class Exec11 {
-    public static void main (String[] args) {
-
     }
 }

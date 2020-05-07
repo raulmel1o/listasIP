@@ -1,3 +1,11 @@
+//finalizado
+
+public class Exec7 {
+    public static void main (String[] args) {
+        Complexo num1 = new Complexo();
+    }
+}
+
 class Complexo {
     double[] a = new double[2];
     double[] b = new double[2];
@@ -46,12 +54,5 @@ class Complexo {
         res[0] = (a[0] * b[0] + a[1] * b[1]) / (Math.pow(b[0], 2) + Math.pow(a[1], 2));
         res[1] = (a[1] * b[0] - a[0] * b[1]) / (Math.pow(b[0], 2) + Math.pow(a[1], 2));
         return res;
-    }
-}
-
-
-public class Exec7 {
-    public static void main (String[] args) {
-        Complexo num1 = new Complexo();
     }
 }
